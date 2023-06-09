@@ -1,0 +1,33 @@
+body {
+    background-color: #abb8c3 ;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    padding: 10px;
+}
+nav {
+    margin-left: auto;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    padding-right: 50px;
+}
+.section-one {
+    display: block;
+    background-color: white;
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
+}
+.services {
+    background-color: white;
+}
