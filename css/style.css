@@ -22,7 +22,7 @@ nav ul li {
 }
 .section-one {
     display: block;
-    background-color: white;
+    background-color: ;
 }
 img {
     margin-left: auto;
@@ -30,4 +30,5 @@ img {
 }
 .services {
     background-color: white;
+    text-align: center;
 }
