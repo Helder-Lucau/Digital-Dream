@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital@0;1&family=EB+Garamond&family=Fjalla+One&family=PT+Sans:wght@700&family=Playfair+Display&family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=PT+Sans:wght@700&family=Playfair+Display&family=Rajdhani:wght@500&display=swap');
 body {
     box-sizing: border-box;
     padding: 0px;
@@ -6,8 +8,9 @@ body {
 header {
     display: flex;
     align-items: center;
-    padding: 5px 5%;
+    padding: 0px 5%;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    font-family: 'Playfair Display', serif;
 }
 nav {
     margin:auto;
@@ -17,31 +20,31 @@ nav {
 }
 nav ul li {
     display: inline-flex;  
-    list-style: none; 
+    list-style: none;
 }
 a {
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 25px;
     padding-right: 50px;
 }
 a:hover{
-    color: red;
+    color: #135cfd;
 }
-/* Get support button*/
+/* Let's talk button*/
 #btn {
     text-decoration: none;
     color: white;
     font-size: 20px;
     padding: 15px 28px;
-    background-color: black;
+    background-color: #135cfd;
     border: none;
     border-radius: 10px;
     font-weight: bold;
     cursor: pointer;   
 }
 #btn:hover{
-    background-color: grey;
+    background-color: #3deeb7;
 }
 /*Section One*/
 #section-one {
@@ -53,25 +56,47 @@ a:hover{
     background-repeat: no-repeat; 
 }
 .intro-container{
-    padding-top: 15%;
-    text-align: center;
+    padding-top: 5%;
+    margin-left: 10%;
     color: white; 
+    font-family: 'Barlow Condensed', sans-serif;
 }
 .intro-container h1{
-    font-family: 'PT Sans', sans-serif;
+    font-size: 60px;
 }
-.btn2{
-    background-color: red;
-    border: none;
-    border-radius: 15px;
-    color: white;
-    padding: 25px 28px;
-    text-align: center;
+.intro-container h2{
+    font-size: 30px;
+}
+.intro-container p{
+    font-size: 20px;
+}
+.intro-container span{
+    color:red;
+}
+.read-more {
+    display: inline-block;
+    background: transparent;
+    color:#fff;
+    padding: 20px 50px;
     font-size: 20px;
     font-weight: bold;
+    border: 2px solid white;
+    cursor: pointer;
 }
-/*Section two */
+.read-more:hover{
+    color: grey;
+}
+/*Section Two */
 #section-two {
-    background-color: white;
+    background-color:white;
     text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 500px;
+}
+/*Section Three*/ 
+.section-three{
+    background-color: #e1eff6;
+    height: 500px;
 }
