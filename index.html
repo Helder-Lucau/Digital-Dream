@@ -5,42 +5,73 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Digital Dream</title>
-        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
     </head>
     <body>
-         <div class="navbar">
-            <div id="logo">
-                <a href=""></a>
+        <header>
+                <img class="logo" src="/images/logo.png" alt="logo">
+                <!--Navigation Menu Bar-->
                 <nav>
                     <ul>
-                        <li>Home</li>
-                        <li>Services</li>
-                        <li>Industries</li>
-                        <li>About</li>
-                        <li>Work</li>
-                        <li>Careers</li>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Industries</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Work</a></li>
+                        <li><a href="">Careers</a></li>
                     </ul>
-                    <button id="btn">GET SUPPORT</button>
                 </nav>
-            </div>
-        </div>
-        <section>
-            <div class="section-one">
-                <img src="/img/tech.jpg" alt="technology">
-                <h2>We're a software and services company that builds and transforms businesses using advance technologies, data and AI</h2>
+                <button id="btn">Get in touch</button>
+        </header>
+        <!--Section one-->
+        <section id="section-one">
+            <div class="intro-container">
+                <h1>We're a software and services company that builds and transforms businesses using advance technologies, data and AI</h1>
                 <p>We enable some of the most demanding organizations to enrich customer experiences, optimize <br>
                     operations, launch new platforms, and monetize data opportunities. We offer fully-managed <br>
                     end-to-end strategy, tech, tools and talent as a single platform to deliver on mission-critical <br>
-                    technology iniatives.
+                    technology iniatives. 
                 </p>
+                <button class="btn2">LEARN MORE</button>
             </div> 
         </section>  
-        <section class="services">
-            <h1>WHAT WE CAN DO FOR YOU</h1>
-                <p>WE ADVISE MORE THAN 1700 COMPANIES FROM ALL SECTORS</p>
+        <section id="section-two">
+            <div class="service-container">
+                <h1>WHAT WE CAN DO FOR YOU</h1>
+                    <h2>Product Development</h2>
+                    <p>Launch new products and platforms with cloud, IoT, AI, and other emerging techs</p>
+                    <h2>Data Analytics & AI</h2>
+                    <p>Use tech, data, and cloud to reshape products, operations, and competitive advantage</p> 
+                    <h2>Product Development</h2>
+                    <p>Leverage actionable insights, automate complex processes, and personalize experiences</p> 
+            </div> 
+        </section> 
+        <section class="section-three">
+            <h1>Meet our team</h1>
                 <div class="services"></div>
-                <h2>Medium Enterprise</h2>
-                <p>To remain competitive, SMEs seek to do more with less, while</p> 
+                <h2>Product Development</h2>
+                <p>Launch new products and platforms with cloud, IoT, AI, and other emerging techs</p>
+                <h2>Digital Transformation</h2>
+                <p>Use tech, data, and cloud to reshape products, operations, and competitive advantage</p> 
+                <h2>Data Analytics & AI</h2>
+                <p>Leverage actionable insights, automate complex processes, and personalize experiences</p>  
+        </section> 
+        <section class="section-four">
+            <h1>Get In Touch!</h1>
+            <form>
+                <input type="text" name="name" value="name">
+                <input type="text" name="email" value="email">
+                <input type="text" name="subject" value="subject">
+                <input type="text" name="message" value="message">
+                <input type="submit" name="Send Message">
+            </form>
+        </section>
+        <section class="section-five">
+            <div class="newsletter">
+                <h1>Subscribe our Newsletter</h1>
+                    <input type="text" name="emailaddress" value="Enter your email address">
+                    <input type="button" value="Sign Up">
+            </div>            
         </section> 
     </body>
 </html>
