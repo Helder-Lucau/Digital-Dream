@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital@0;1&family=EB+Garamond&family=Fjalla+One&family=PT+Sans:wght@700&family=Playfair+Display&family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,300&family=Arsenal&family=IBM+Plex+Sans+Condensed:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=PT+Sans:wght@700&family=Playfair+Display&family=Rajdhani:wght@500&display=swap');
+
 body {
     box-sizing: border-box;
     padding: 0px;
@@ -13,7 +15,7 @@ header {
     font-family: 'Playfair Display', serif;
 }
 nav {
-    margin:auto;
+    margin-left: 25%;
 }
 .logo {
     width: 200px;
@@ -46,7 +48,7 @@ a:hover{
 #btn:hover{
     background-color: #3deeb7;
 }
-/*Section One*/
+/*Section One Contains the background image*/
 #section-one {
     width: auto;
     height: 700px;
@@ -56,19 +58,21 @@ a:hover{
     background-repeat: no-repeat; 
 }
 .intro-container{
-    padding-top: 5%;
+    padding-top: 8%;
     margin-left: 10%;
     color: white; 
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
 .intro-container h1{
-    font-size: 60px;
+    font-size: 40px;
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
 .intro-container h2{
-    font-size: 30px;
+    font-size: 25px;
 }
 .intro-container p{
     font-size: 20px;
+    font-weight: bold;
 }
 .intro-container span{
     color:red;
@@ -86,17 +90,44 @@ a:hover{
 .read-more:hover{
     color: grey;
 }
-/*Section Two */
+/*SECTION TWO */
 #section-two {
+    display: flex;
     background-color:white;
-    text-align: center;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; 
     height: 500px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
-/*Section Three*/ 
-.section-three{
+.main-service-container {
+    text-align: center;
+    padding-left: 5%;
+}
+.main-service-container h1 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 30px;
+}
+.p-dev {
+    text-align: center;
+    float: left;
+    width: 25%;
+}
+.d-trans {
+    text-align: center;
+    float: left;
+    width: 25%;
+}
+.da-ai {
+    text-align: center;
+    float: left;
+    width: 25%;
+}
+/* SECTION THREE */ 
+#section-three {
     background-color: #e1eff6;
     height: 500px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    margin: auto;
+}
+.section-name {
+    font-family: 'Alegreya Sans SC', sans-serif;
+
 }
