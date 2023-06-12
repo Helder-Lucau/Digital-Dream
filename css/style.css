@@ -113,7 +113,7 @@ a:hover{
 .d-trans {
     text-align: center;
     float: left;
-    width: 25%;
+    width: 25%; 
 }
 .da-ai {
     text-align: center;
@@ -123,11 +123,36 @@ a:hover{
 /* SECTION THREE */ 
 #section-three {
     background-color: #e1eff6;
-    height: 500px;
+    height: 650px;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
+    text-align: center;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
+}
+.content .profile {
+    flex:1;
+    margin: 50px 50px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.profile img{
+    margin-top: 50px;
+    width: 200px;
+    height: 250px;
 }
 .section-name {
     font-family: 'Alegreya Sans SC', sans-serif;
-
+    font-size: 20px;
+    color: black;
+    padding-top: 30px;
+}
+.profile h4 { 
+    font-size: 20px;
+}
+.profile p {
+    font-size: 20px;
 }
