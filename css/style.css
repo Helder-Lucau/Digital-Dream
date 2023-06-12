@@ -52,7 +52,7 @@ a:hover{
 #section-one {
     width: auto;
     height: 700px;
-    background-image: url('/images/dd1.jpg');
+    background-image: url('../images/dd1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
