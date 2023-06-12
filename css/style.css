@@ -66,6 +66,7 @@ a:hover{
 .intro-container h1{
     font-size: 40px;
     font-family: 'Alegreya Sans SC', sans-serif;
+    letter-spacing: 5px;
 }
 .intro-container h2{
     font-size: 25px;
@@ -97,7 +98,7 @@ a:hover{
     height: 500px;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
-.main-service-container {
+.service-container {
     text-align: center;
     padding-left: 5%;
 }
@@ -129,20 +130,17 @@ a:hover{
 }
 .content {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: auto;
 }
-.content .profile {
-    flex: 1;
-    margin: 50px 50px;
-    background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
+
 .profile img{
     margin-top: 50px;
-    width: 200px;
-    height: 250px;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 .section-name {
     font-family: 'Alegreya Sans SC', sans-serif;
