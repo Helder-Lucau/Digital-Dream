@@ -52,7 +52,7 @@ a:hover{
 #section-one {
     width: auto;
     height: 700px;
-    background-image: url("/images/dd1.jpg");
+    background-image: url('/images/dd1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
@@ -122,7 +122,7 @@ a:hover{
 }
 /* SECTION THREE */ 
 #section-three {
-    background-color: #e1eff6;
+    background-color: #3a98a2;
     height: 650px;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     text-align: center;
@@ -134,7 +134,7 @@ a:hover{
     margin: auto;
 }
 .content .profile {
-    flex:1;
+    flex: 1;
     margin: 50px 50px;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -147,8 +147,8 @@ a:hover{
 .section-name {
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 20px;
-    color: black;
-    padding-top: 30px;
+    color: white;
+    padding-top: 20px;
 }
 .profile h4 { 
     font-size: 20px;
